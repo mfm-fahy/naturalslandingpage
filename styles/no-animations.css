@@ -1,0 +1,29 @@
+/* Disable all scrolling animations globally */
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  scroll-behavior: auto !important;
+}
+
+* {
+  scroll-behavior: auto !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Remove smooth scrolling from all elements */
+.scroll-smooth {
+  scroll-behavior: auto !important;
+}
+
+/* Disable all CSS animations and transitions */
+*,
+*::before,
+*::after {
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+}
